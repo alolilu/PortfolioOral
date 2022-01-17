@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Portfolio Alexis FREDRIKSEN</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 gauche">
+                <i id="arrow-left" class="fas fa-arrow-left"></i>
+            </div>
+            <div class="col-10 principal">
+                <div class="slide slide1" id="slide1">
+                    <div class="containerSlide">
+                        <div class="imageSlide active">
+                            <p id="textCote">À PROPOS DE MOI</p>
+                            <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">À PROPOS DE MOI :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">Je m'appelle Alexis , 19 ans et suis actuellement étudiant en BTS SIO option SLAM. J'ai pour projet devenir développeur WEB full stack. Passionné par ce domaine depuis quelques années, j'ai pu acquérir de l’expérience tout au long de mon apprentissage.</p>
+                                <img src="image/moii.png" height="200px" width="190px" alt="">
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Mon CV</p>
+                            <div class="contenuSlide" style="flex-direction: row; justify-content: space-around;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">Mon CV :</h5>
+                                <img height="50%" width="50%" src="image/cv.png"  alt="">
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Mon Portfolio</p>
+                            <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">Présentation de mon deuxieme Portfolio :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">Ce que vous pouvez retrouver sur ce portfolio est simple, <br>vous y retrouverez mes domaine de compétence et mes compétences dans le web. <br>Touts mes projets réalisés (école, entreprise et personnel). <br> Puis pour finir un a propos et un espace pour me contacter. </p>
+                                <a class="LienPortfolio" href="https://portoflioalexisfrediksen.000webhostapp.com/" target="_blank" >Lien vers ce Portoflio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row liste">
+                        <ul>
+                            <a  onclick="goTo(0)" style="color: black; background-color: var(--main-bg-color);" href="#">Accueil</a>
+                            <a  onclick="goTo(1)" href="#">Ecole</a>
+                            <a  onclick="goTo(2)" href="#">Entreprise</a>
+                            <a  onclick="goTo(3)" href="#">Compétences</a>
+                            <a  onclick="goTo(4)" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide slide2" id="slide2">
+                    <div class="containerSlide">
+                        <div class="imageSlide active">
+                            <p id="textCote">UTEC ET SES SITES</p>
+                           <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">UTEC C'EST QUOI ?</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">Utec est un centre de formation pour apprentis. Utec prépare à plus de 100 métiers , en alternance. Utec propose 46 diplômes, du CAP au BAC+5. Ce CFA enregistre un taux de réussite de 83% toutes filières confondus.</p>
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800; margin-bottom: 20px;">SITES</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 0px 20px;"> - Avon/Fontainebleau <br>
+                                    - Marne La Vallée <br>
+                                    - Meaux <br>
+                                    - Provins <br>
+                                    - Montereau</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">POURSUITE D'ÉTUDES</p>
+                            <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">POURSUITE D'ÉTUDES :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">- Licence Professionnelle Métiers de l'Informatique - Parcours administration et sécurité des systèmes et des réseaux <br> <br>
+                                    - Développeur chargé de projets en solutions pour mobiles et objets connectés - Niveau 6 : Bac + 3 <br> <br>
+                                    - Manager en Ingénierie Informatique (Diplôme reconnu par l'Etat) - Niveau 7 : Bac + 5</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">FILIÈRES</p>
+                            <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">FILIÈRES :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">- Commerce, Services , Comptabilité, Gestion, Vente <br><br>
+                                    - Hôtellerie Restauration <br> <br>
+                                    - Informatique et technologies Numériques <br><br>
+                                    - Tourisme</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">BTS SIO</p>
+                            <div class="contenuSlide">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">BTS SIO :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 2.4vh; text-align:center; margin: 10px 10px;">Le BTS SIO (Brevet de Technicien Supérieur Services informatique aux Organisations) est un est un diplôme reconnu par l’état de niveau Bac+2. <br>
+                                    Il comprend 2 options : <br>
+                                    - SISR (Solutions d’infrastructure, systèmes et réseaux) <br>
+                                    L’option SISR est destinée aux étudiants qui s’orientent vers les métiers à la conception et la maintenance d’infrastructures réseaux. Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation. <br>
+                                    - SLAM (Solutions Logicielles et Applications Métier) <br>
+                                    L’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs. Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise. Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">IMAGE D'UTEC</p>
+                            <div class="contenuSlide" style="margin: 0px !important; height: 100%;">
+                                <img id="ImageUtec" style="border-radius: 25px; height: 100%; width: 100%;" src="image/utec.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row liste">
+                        <ul>
+                            <a onclick="goTo(0)" href="#">Accueil</a>
+                            <a onclick="goTo(1)" style="color: black; background-color: var(--main-bg-color);" href="#">Ecole</a>
+                            <a onclick="goTo(2)" href="#">Entreprise</a>
+                            <a onclick="goTo(3)" href="#">Compétences</a>
+                            <a onclick="goTo(4)" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide slide3" id="slide3">
+                    <div class="containerSlide">
+                        <div class="imageSlide active">
+                            <p id="textCote">SemperConnect</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800;"><img height="80px;" width="80px" src="image/th.jpeg" alt="">SemperConnect :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">Je suis en formation dans l'entreprise SemperConnect qui propose des solutions connectées Cloud, VOIP, ERP, qui vont améliorer la gestion de votre quotidien <br> <br> Nous sommes 3 dans l'entreprise, Mr Couratin qui gere la partie réseau, moi qui gere la partie développement et une équipe belges a qui nous faisons appeles quand nous ne pouvons pas régler certains problèmes.</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Vision Entreprise</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800;">Vision de notre entreprise :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">La philosophie de notre entreprise est de développer le monde du "libre" avec vous ! <br>
+                                    Nos systèmes sont là pour soulager vous et vos équipes, optimiser votre vie administrative, dynamiser vos systèmes d'informations. <br> On peut y retrouver différents métiers, développer Web, administrateurs réseaux, directeur de projet. <br> <br>
+                                    Semper Connect vous accompagne dans la digitalisation de votre activité. <br>
+                                    Pour vos réunions, vos consultations, vos cours ou en télétravail, bénéficiez d’une solution fiable et sécurisée qui vous permettra de simplifier les problématiques de distance ou de disponibilité.</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Mon travail</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800;">Mon travail :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">
+                                    - Dévelloper de sites internets <br>
+                                    - Gestion du parcs informatiques <br>
+                                    - Modifications de modules du site Odoo</p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">DooApi</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <p><img src="https://www.semper-connect.fr/web/image/98123/DooApi-LogoQuadri_Plan%20de%20travail%201.png" alt=""></p>
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800;">vous propose le tout en un !</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">
+                                    Il est enfin possible de gérer dans une même base toute l'organisation de votre entreprise.<br> <br>
+                                    - Suivi de projets - Achats  - Facturation / Devis<br> <br>
+                                    - CRM : Gestion relation clients - Contacts - Messagerie<br> <br>
+                                    - Stocks - Web  - Ressources Humaines<br> <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">IMAGE BONUS</p>
+                            <div class="contenuSlide" style="margin: 0px !important; height: 100%;">
+                                <img id="ImageUtec" style="border-radius: 25px; height: 100%; width: 100%;" src="image/taff.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row liste">
+                        <ul>
+                            <a onclick="goTo(0)" href="#">Accueil</a>
+                            <a onclick="goTo(1)" href="#">Ecole</a>
+                            <a onclick="goTo(2)" style="color: black; background-color: var(--main-bg-color);" href="#">Entreprise</a>
+                            <a onclick="goTo(3)" href="#">Compétences</a>
+                            <a onclick="goTo(4)" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide slide4" id="slide4">
+                    <div class="containerSlide">
+                        <div class="imageSlide active">
+                            <p id="textCote">Présentation compétences</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800;">Mes compétences en genéral :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">Je dispose de plusieurs domaine de compétences : <br><br>
+                                - Dévellopement de site internets (PC et Smartphone) <br>
+                                - Montage de PC (Pc fixe et portable) <br>
+                                - Design et graphique (Logo et design de projet)<br>
+                                - Géré un parc informatique (Communication réseau et serveur)
+                             </p>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Compétences Front-end</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800; width: auto; margin: 30px 0px;">Mes compétences Frond-End :</h5>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">HTML</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">XML</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">CSS</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">SCSS</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">JavaScript</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Compétences Back-end</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 4vh; font-weight: 800; width: auto; margin: 30px 0px;">Mes compétences Back-End :</h5>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">PYTHON</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">PHP</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">55%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">JAVA</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+                                    </div>
+                                </div>
+                                <div class="row" style="display: flex; flex-direction: column;width: 100%;">
+                                    <p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 800; font-size: 2.5vh; text-align:center;">C / C++</p>
+                                    <div style="padding: 0px; width: 50vw; margin-bottom: 30px;" class="progress">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Tous Mes Projets Projets</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800; text-align: center;">Tous Mes Projets :<br> <span style="color: var(--color-texte); font-size: 5vh;">(Ecole,Entreprise,Personnel)</span> <br> <br><i style="color: var(--color-texte); font-size: 35px; margin-right: 10px;" class="fas fa-arrow-circle-down"></i>Clique Ici<i style="color: var(--color-texte);font-size: 35px; margin-left: 10px;" class="fas fa-arrow-circle-down"></i></h5>
+                                <a class="btnProjet" href="projet.html"><i style="margin-right: 5px;" class="fas fa-long-arrow-alt-right" target="_blank"></i>Projets<i style="margin-left: 5px;" class="fas fa-long-arrow-alt-left"></i></a>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 1.5vh; text-align:center; margin: 30px 20px;">© 2022 Alexis FREDRIKSEN PAR META</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row liste">
+                        <ul>
+                            <a onclick="goTo(0)" href="#">Accueil</a>
+                            <a onclick="goTo(1)" href="#">Ecole</a>
+                            <a onclick="goTo(2)" href="#">Entreprise</a>
+                            <a onclick="goTo(3)" style="color: black; background-color: var(--main-bg-color);" href="#">Compétences</a>
+                            <a onclick="goTo(4)" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide slide5" id="slide5">
+                    <div class="containerSlide">
+                        <div class="imageSlide active">
+                            <p id="textCote">Formulaire de contact</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800; margin-bottom: 0px;">Formulaire de contact :</h5>
+                                <form action="index.php" method="POST">
+                                    <div class="row" style="display: flex; align-items: center; justify-content: center;">
+                                        <label class="labelForm" for="FnameSname">Nom et prénom :</label> 
+                                        <div class="row" style="display: flex; align-items: center; width: 60vw; justify-content: center;">
+                                            <input class="inputForm" style="width: 40%;" type="text" placeholder="Prénom"><input class="inputForm" style="width: 40%;" type="text" placeholder="Nom de famille">
+                                        </div>
+                                        <label class="labelForm" for="Email">Email :</label> 
+                                        <div class="row" style="display: flex; align-items: center; justify-content: center; width: 50.5vw;">
+                                            <input class="inputForm" type="email" placeholder="Ton mail">
+                                        </div>
+                                        <label class="labelForm" for="Message">Votre message :</label> 
+                                        <div class="row" style="display: flex; align-items: center; justify-content: center; width: 50.5vw;">
+                                            <textarea type="text" style="height: 130px;" placeholder="Message" class="inputForm"></textarea>
+                                        </div>
+                                        <div class="row" style="display: flex; align-items: center; justify-content: right; width: 50.5vw;">
+                                            <button class="envoyerForm">Submit</button>
+                                        </div>
+                                    </div>  
+                                </form>
+                            </div>
+                        </div>
+                        <div class="imageSlide">
+                            <p id="textCote">Information supplémentaire</p>
+                            <div class="contenuSlide" style="margin: 0px !important;">
+                                <h5 style="font-family: 'Lora', serif; color:var(--second-color); font-size: 6vh; font-weight: 800;">Mes informations supplémentaires :</h5>
+                                <p style="font-family: 'Roboto Condensed', sans-serif; font-size: 3vh; text-align:center; margin: 30px 20px;">
+                                - Email Professionel : alexis-fredriksen@semperco.fr <br> <br>
+                                - Email Personnel : alexis.fredriksen5@gmail.com <br><br>
+                                - téléphone : +33 7 81 05 05 41
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row liste">
+                        <ul>
+                            <a onclick="goTo(0)" href="#">Accueil</a>
+                            <a onclick="goTo(1)" href="#">Ecole</a>
+                            <a onclick="goTo(2)" href="#">Entreprise</a>
+                            <a onclick="goTo(3)" href="#">Compétences</a>
+                            <a onclick="goTo(4)" style="color: black; background-color: var(--main-bg-color);" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 droite">
+                <i id="arrow-right"  class="fas fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    <scrip

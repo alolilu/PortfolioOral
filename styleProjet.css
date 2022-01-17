@@ -1,0 +1,843 @@
+/* CSS PAGE PROJET  */
+
+body{
+    overflow: scroll !important;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    min-height: 85vh;
+    width: 500vw;
+    justify-content: space-between;
+}
+
+.cou1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenu{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+}
+
+.containu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containu h5{
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 30px ;
+    font-size: 2em;
+    text-align: center;
+}
+
+.first{
+    background-color: #9b9a9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236b6a6e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9b9a9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236b6a6e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.second p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.second h5{
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 15px;
+    margin-top: 15px ;
+}
+
+.containu h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containu p{
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.entreprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9b9a9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236b6a6e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.entreprise p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+}
+
+.entreprise img{
+    height: 50px;
+}
+
+.entreprise h3{
+    margin-top: 20px;
+    color: red;
+}
+
+.conteeee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b9a9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236b6a6e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.conteeee h3{
+    margin-top: 19px;
+    color: red;
+}
+
+.conteeee h5{
+    margin-top: 20px;
+}
+
+.conteeee p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.conteeee a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.cont h3{
+    display: flex;
+    justify-content: center;
+}
+
+.droitetgauche{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+}
+
+.header1{
+    background: url(images/video.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.headgauche{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.headdroite{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#logo{
+    color: white;
+    font-size: 19px;
+}
+
+.collogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.collogo a{
+    color: white;
+    font-size: 1em;
+}
+
+.footer-right a:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding: 10px 0px;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.178);
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+
+}
+
+@media only screen and (max-width: 770px){
+    .headgauche{
+        padding: 5px;
+    }
+    .headdroite{
+        padding: 5px;
+    }
+    .headdroite a{
+        text-align: center;
+    }
+    #millieucol{
+        padding: 0px;
+    }
+    .collogo{
+        padding: 0px;
+    }
+    .titre_projet1{
+        font-size: 1.2em !important;
+    }
+}
+
+.third{
+    background-color: #9b9a9a;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236b6a6e' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+@media only screen and (max-width: 600px) {
+    .head2 a{
+        padding: 4px 5px !important;
+    }
+    .head2 li{
+        font-size: 1vh !important;
+        height: 10px !important;
+    }
+    .head2{
+        padding: 5px 0px !important;
+        height: 40px;
+        margin-top: 15px;
+    }
+    #logo{
+        font-size: 1em;
+    }
+    .collogo a{
+        color: white;
+        font-size: 0.7em !important;
+    }
+    .headdroite{
+        padding: 0px;
+    }
+    .titre1{
+        font-size: 2vh !important;
+    }
+    .titre2{
+        font-size: 3vh !important;
+    }
+    .titre3{
+        font-size: 2vh !important;
+        padding: 0px 20px;
+        margin-top: 20px !important;
+    }
+    .compcol{
+        margin-top: 50px !important;
+        padding: 0px;
+    }
+    .comprow{
+        width: 60% !important;
+        max-width: 30% !important;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #compol1{
+        margin-top: 0px !important;
+    }
+    #mid3{
+        margin-bottom: 0px !important;
+    }
+    .titre_passion1{
+        font-size: 2vh !important;
+    }
+    .titre_passion2{
+        font-size: 2vh !important;
+        color: white;
+    }
+    #mid3{
+        display: none !important;
+    }
+    #mid0{
+        display: none !important;
+    }
+    .form-control{
+        padding: 3px;
+    }
+    #coucoumap{
+        height: 29vh !important;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    #body{
+        overflow-x: none;
+        overflow-x: hidden;
+        height: auto;
+    }
+    #rowfootr h4{
+        font-size: 1em !important;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 30px !important;
+    }
+    #rowfootr{
+        padding: 10px !important;
+        padding-top: 20px !important;
+    }
+    #rowfootr p{
+        font-size: 0.7em !important;
+        text-align: center;
+    }
+    #rowfootr li{
+        font-size: 0.7em !important;
+        text-align: center;
+       margin: 22px;
+    }
+    #compol2{
+        padding-bottom: 30px;
+    }
+    .realrow{
+        height: auto !important;
+        padding: 60px 0px !important;
+    }
+  }
+
+.headgauche a:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.head2 a{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    transition: 0.9s;
+    letter-spacing: 3px;
+    z-index: 9999;
+    border-radius: 7px;
+}
+
+.head2 a:hover{
+    box-shadow: rgba(0, 0, 0, 0.767) 0px 10px 36px 0px, rgba(0, 0, 0, 0.747) 0px 0px 0px 1px;
+}
+
+#coucoumap{
+    height: 49vh;
+}
+
+.head2 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    z-index: 9999;
+}
+
+.head2 li{
+    color: white;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-shadow: 3px 3px 8px black;
+    font-family: 'Fjalla One', sans-serif;
+    transition: 0.9s;
+    letter-spacing: 3px;
+    z-index: 9999;
+    border-radius: 7px !important;
+}
+
+.head2 li:first-child{
+    padding: 0px;
+    box-shadow: none;
+}
+
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 70%;
+    padding: 0px;
+}
+
+
+
+
+.logoimg{
+    height: 50px;
+}
+
+.logoimg img{
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+.titre_principal{
+    text-align: center;
+    padding-top: 90px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.5vw;
+    letter-spacing: 3px;
+}
+
+.titre_secondaire{
+    font-family: 'Fraunces', serif;
+    font-size: 1.90vw;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(109, 105, 105);
+}
+
+.style{
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 3vw;
+    color: red;
+    padding-top: 0px;
+}
+
+.comprow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sticky{
+    margin-top: 0px;
+    width: 100vw;
+    left: 0px;
+    right: 0px;
+    padding-left: 35px;
+    z-index: 1;
+}
+
+.html{
+    width: 70%;
+    padding-top: 30px;
+}
+
+.compcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.logo_ok{
+    width: 100%;
+    height: 25px;
+    width: 25px;
+}
+
+.basic_paragraphe{
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+
+.basic_paragraphe1{
+    font-size: 2vh;
+    text-align: center;
+}
+
+#mid0{
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 0px;
+}
+
+#mid1{
+    background: url(images/paralaxe.jpg);
+    padding: 2vw;
+    height: 40vh;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projcol{
+    display: flex;
+    align-items: center;
+    height: 820px;
+    width: 100% !important;
+    flex-direction: column;
+    background-color: rgba(190, 188, 188, 0.507);
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 50px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.projcol button{
+    display: flex;
+    width: 50%;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px solid white;
+    font-size: 2em;
+    padding: 20px;
+    cursor: pointer;
+    position: block;
+}
+
+.projcol i{
+    font-size: 30px;
+}
+
+.projcol i:hover{
+    font-size: 35px;
+}
+
+#p1{
+    display: none;
+}
+
+/* .projcol button i:hover{
+    
+    transition: 0.4s;
+} */
+
+.titre_projet1{
+    font-size: 1.7em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rowproj999{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projet_image{
+    text-align: center;
+    cursor: pointer;
+    width: 20% !important;
+}
+
+/* .projet_image:hover{
+    border-radius: 50%;  
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+} */
+
+.basic_paragraphe1{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#mid3{
+    background: url(images/paralaxe1.jpg);
+    padding: 2vw;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 4vw;
+    margin-bottom: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.presentation{
+    text-align: center;
+    font-style: italic;
+    font-size: 2vw;
+    padding-top: 20px;
+}
+
+.mon_cv{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4vw;
+    padding-top: 15px;
+}
+
+.mon_lettre{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4vw;
+    padding-top: 5px;
+}
+
+#mid4{
+    background: url(images/paralaxe2.jpg);
+    padding: 2vw;
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_contact{
+    height: 25px;
+}
+
+.basic_paragraphe{
+    color: rgb(109, 105, 105);
+    font-style: italic;
+    padding: 0px;
+}
+
+.contcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    width: 100% !important;
+    justify-content: center;
+    background-color: rgba(170, 170, 170, 0.096);
+    padding: 0px;
+}
+
+
+
+.rowcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.realrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 207, 207) !important;
+    padding: 0px;
+}
+
+.active{
+    color: black;
+    transition: 0.4s;
+    border: 2px solid black;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+}
+
+.active li{
+    color: black;
+    transition: 0.4s;
+}
+
+.active .logoimg{
+    z-index: 9999;
+    color: rgb(0, 0, 0) !important;
+}
+
+#icon{
+    color: red;
+    margin-right: 10px;
+}
+
+.fisrtrowcontact{
+    display: flex;
+    flex-direction: column;
+}
+
+#chams{
+    padding: 0px;
+    margin: 7px 0px;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.submit{
+    color: black;
+    background-color: red;
+    transition: 0.4s;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.footerul{
+    list-style: none;
+    padding: 0px;
+}
+
+.footerul li{
+    margin: 20px 0px;
+    font-weight: 500;
+    color: rgb(44, 43, 43);
+}
+
+.footerul li:hover{
+    color: rgb(255, 9, 9);
+    cursor: pointer;
+}
+
+.footerul li i{
+    font-size: 1.2em;
+    
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+    height: 650px;
+}
+
+@media screen and (max-width: 990px) {
+    #slider figure img{
+        height: 400px;
+    } 
+}
+
+@media screen and (max-width: 770px) {
+    #slider figure img{
+        height: 300px;
+    } 
+}
+
+@media screen and (max-width: 400px) {
+    #slider figure img{
+        height: 200px;
+    } 
+}
+
+@keyframes slider {
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: 0%;
+    }
+    95%{
+        left: -0%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+
